@@ -5,7 +5,7 @@ using Microsoft.Extensions.Hosting;
 
 namespace Keelmail
 {
-    public class Program
+    public sealed class Program
     {
         public static DateTime StartedUtc { get; private set; }
 
